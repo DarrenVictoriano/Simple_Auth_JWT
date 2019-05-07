@@ -1,0 +1,33 @@
+{
+  "name": "node-jwt",
+  "version": "1.0.0",
+  "description": "Accompanying repository for scotch article on auth with JWTs and node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emabishi/node-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emabishi/node-jwt/issues"
+  },
+  "homepage": "https://github.com/emabishi/node-jwt#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "7.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.5.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0"
+  }
+}
